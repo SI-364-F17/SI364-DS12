@@ -1,0 +1,8 @@
+<h1>Create New GIF Collection</h1>
+
+<form method="POST">
+	{{ form.hidden_tag() }}
+	{{ form.name.label }} {{ form.name() }}
+	{{ form.gif_picks.label }} {{ form.gif_picks() }}
+	{{ form.submit.label }}{{ form.submit() }}
+</form>
